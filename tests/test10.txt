@@ -1,0 +1,21 @@
+void fn(int i)
+{
+	printf(i);
+}
+void fn2(int a, int b, int c)
+{
+	printf(a + b + c);
+}
+int fn3(int a, int b, int c, int d, int e, int f)
+{
+	printf(a);
+	printf(b);
+	printf(c);
+	printf(d);
+	printf(e);
+	printf(f);
+}
+void main()
+{
+	fn3(1, 2, 3, 4, 5, 6);
+}

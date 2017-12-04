@@ -1,0 +1,5 @@
+void main()
+{
+    int array[100];
+    array = 15;
+}

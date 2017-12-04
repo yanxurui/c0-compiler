@@ -1,0 +1,30 @@
+int max(int a,int b,int c,int d,int e,int f,int g)
+{
+int max;
+max=a;
+if(b>max)
+max=b;
+if(c>max)
+max=c;
+if(d>max)
+max=d;
+if(e>max)
+max=e;
+if(f>max)
+max=f;
+if(g>max)
+max=g;
+return (max);
+}
+void main()
+{
+int a,b,c,d,e,f,g;
+a=1;
+b=a+1;
+c=a+b;
+d=b*b;
+e=d-1;
+f=d/b;
+g=-f;
+printf(max(a,b,c,d,e,f,g));
+}

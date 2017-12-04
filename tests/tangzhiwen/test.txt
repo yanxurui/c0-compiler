@@ -1,0 +1,22 @@
+const int ca=1;
+const char cb='a';
+int ga;
+char gb;
+void main()
+{
+	int la;
+	char lb;
+	ga=2;
+	la=3;
+	gb='b';
+	la=3;
+	lb='c';
+	printf(ca);
+	printf("\n",cb);
+	printf("\n",ga);
+	printf("\n",gb);
+	printf("\n",la);
+	printf("\n",lb);
+	
+	return;
+}

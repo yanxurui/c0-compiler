@@ -1,0 +1,17 @@
+void f()
+{
+	return (3);
+}
+int g()
+{
+	return;
+}
+void h()
+{
+	return;
+}
+void main()
+{
+	f();
+	return ;
+}

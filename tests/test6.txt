@@ -1,0 +1,13 @@
+int G_A[7];
+void main()
+{
+	int A[10];
+	G_A[2] = 2;
+	A[1] = 1;
+	G_A[1] = A[1];
+	A[2] = g_a[2];
+	printf(g_A[1]);
+	printf(g_A[2]);
+	printf(A[1]);
+	printf(A[2]);
+}

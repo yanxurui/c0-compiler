@@ -1,0 +1,30 @@
+const int M1=12
+int v1
+int v2,v3
+
+int A[12;
+void fn1(
+{}
+int fn2()
+{
+int fn3(a)
+{}
+void main()
+{
+v1=1
+for(v1=2 v1<v2 v1=v1+1;
+
+fn100();
+
+fn3(v1,v2);
+fn3();
+id=100;
+unknow[10]=100;
+A[0=0;
+scanf(M1);
+scanf(M2);
+scanf(v1;
+printf("hell";
+return (v1;
+printf("end");
+}

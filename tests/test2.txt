@@ -1,0 +1,11 @@
+void main()
+{
+	int i1, i2, i3;
+	char c1, c2;
+	scanf(i1, c1, i2, c2, i3);
+	printf("\n", i1);
+	printf(c1);
+	printf(i2);
+	printf(c2);
+	printf(i3);
+}

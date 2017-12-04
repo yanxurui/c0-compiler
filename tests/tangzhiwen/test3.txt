@@ -1,0 +1,11 @@
+void main()
+{
+	int a,b; 
+	a=3;
+	b=2;
+	printf(a/b);
+	a=4;
+	b=2;
+	printf("\n",a/b);
+	return;
+}

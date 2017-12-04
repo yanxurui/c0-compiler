@@ -1,0 +1,10 @@
+void main()
+{
+	int a;
+	char c;
+	a = 97;
+	c = 'a';
+	printf("a=");
+	printf(a);
+	printf("\nc=", c);
+}

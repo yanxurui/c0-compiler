@@ -1,0 +1,12 @@
+int M;
+int fn()
+{
+	return (8);
+}
+void main()
+{
+	int a, b, c, d, n;
+	n = 7;
+	M = 5;
+	printf(1 + (2 + (3 + (4 + (M + (6 + (n + (fn()))))))));
+}

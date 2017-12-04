@@ -1,0 +1,29 @@
+const int false = 0, true = 1;
+int n;
+int isPrime[101];
+
+void main()
+{
+    int i, j;
+
+    for (i = 2; i < 101; i = i + 1)
+    {
+        isPrime[i] = true;
+    }
+
+    for (i = 2; i <= 100; i = i + 1)
+    {
+        if (isPrime[i])
+        {
+            for (j = 2; i * j <= 100; j = j + 1)
+                isPrime[i*j] = false;
+        }
+    }
+
+    printf("Primes between 0 to 100:");
+    for (i = 2; i <= 100; i = i + 1)
+        if (isPrime[i])
+            printf(" ", i);
+
+    return;
+}

@@ -1,0 +1,15 @@
+void main()
+{
+	int a0, a1, a2, a3;
+	int b0, b1, b2, b3;
+	a0 = 0; a1 = 1;  a2 = 2;  a3 = 3;
+	b0 = 0; b1 = -1; b2 = -2; b3 = -3;
+	printf("\n", a0+a1+a2+a3);
+	printf("\n", b0+b1+b2+b3);
+	printf("\n", a0-b3+a2+b2);
+	printf("\n", a1*a2*b3);
+	printf("\n", b2*a3/b3/b2);
+	printf("\n", (((((((b3))))))));
+	printf("\n", (a1*a3+b2*b1));
+	printf("\n", (a1*(a3+b2)*b1));
+}

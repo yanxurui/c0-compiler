@@ -1,0 +1,17 @@
+int f(int k)
+{
+	switch(k)
+	{
+	case 1:return (2);
+	case 2: return (3);
+	}
+}
+void main()
+{
+	int i;
+	i=2;
+	printf(f(i));
+	i=1;
+	printf("\n",f(i));
+return;
+}

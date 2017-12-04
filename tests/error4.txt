@@ -1,0 +1,8 @@
+void main()
+{
+	char A[10];
+	int b;
+	A[10] = 97;
+	b = A[10];
+	printf(b);
+}

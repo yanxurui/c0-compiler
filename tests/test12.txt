@@ -1,0 +1,17 @@
+char fn(int a, char b, char c)
+{
+	printf(a);
+	printf(b);
+	printf(c);
+	return (a*b*c);
+}
+void main()
+{
+	char c;
+	char A[5];
+	c = 1684234849;
+	A[1] = 1684234849;
+	printf(c);
+	printf(A[1]);
+	printf(fn(10000, 1684234849, 1701077858));
+}

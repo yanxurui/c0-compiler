@@ -1,0 +1,21 @@
+int M, N;
+char C;
+void fn()
+{
+	N = 99;
+	printf("fn:");
+	printf(M);
+	printf(C);
+	M = 100;
+	C = 'a';
+}
+void main()
+{
+	M = -100;
+	C = 'z';
+	fn();
+	printf("\nmain:");
+	printf(M);
+	printf(N);
+	printf(C);
+}

@@ -1,0 +1,20 @@
+void main(){
+	int a,b;
+		
+	printf("Please enter two intergers (A,B): ");
+	scanf(a,b);
+	
+	printf("A+B=");
+	printf(a+b);
+	
+	printf("A-B=");
+	printf(a-b);
+	
+	printf("A*B=");
+	printf(a*b);
+	
+	printf("A/B=");
+	printf(a/b);
+	
+	return ;
+}

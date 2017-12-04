@@ -1,0 +1,10 @@
+int f()
+{
+	printf("function\n");
+	return (3);
+}
+void main()
+{
+	printf("main",f());
+return;
+}

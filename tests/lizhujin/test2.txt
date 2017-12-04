@@ -1,0 +1,13 @@
+int fibs(int x)
+{
+    if (x == 0) return (0);
+    if (x == 1) return (1);
+    return (fibs(x - 2) + fibs(x - 1));
+}
+
+void main()
+{
+    int i;
+    for (i = 1; i <= 10; i = i + 1)
+        printf("\n", fibs(i));
+}

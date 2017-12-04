@@ -1,0 +1,61 @@
+void f()
+{
+
+}
+
+void g(int x)
+{
+    printf(x);
+    printf("\n");
+}
+
+void h(int x, char c1, char c2, int y)
+{
+    printf(x);
+    printf("\n", c1);
+    printf("\n", c2);
+    printf("\n", y);
+    printf("\n");
+}
+
+int u(int a, int b, int c, int d, int e, int f, int g)
+{
+    return (a + b + c + d + e + f + g);
+}
+
+int v()
+{
+    int a;
+    return (5);
+    a = 4;
+    return (a);
+}
+
+int w()
+{
+    return;
+}
+
+char p()
+{
+    return ('p');
+}
+
+int max(int a, int b)
+{
+    if (a > b) return (a);
+    else return (b);
+}
+
+void main()
+{
+    f();
+    g(27);
+    h(1, '2', '3', 4);
+    u(1, -1, 0, 3, 5, -13, -100);
+    printf(w());
+    printf("\n");
+    printf(p());
+    printf("\n");
+    printf("max of 100 and 200: \n", max(100, 200));
+}

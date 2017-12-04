@@ -1,0 +1,32 @@
+void test_if(int a,int b)
+{
+	if(a>b)
+		printf(a);
+	else
+	{
+		if(b>0)
+			printf(b);
+		else
+			printf(0);
+	}
+	
+}
+void test_while(int a)
+{
+	printf("enter test while\n");
+	while(a<10)
+	{
+		a=a+1;
+		printf(a);
+		printf(" ");
+	}
+}
+void main()
+{
+	int a,b;
+	a=1;
+	b=2;
+	test_if(a,b);
+	test_while(a);
+	return;
+}

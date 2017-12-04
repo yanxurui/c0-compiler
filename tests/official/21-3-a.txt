@@ -1,0 +1,37 @@
+int var1 ,var2;
+int a[4];
+
+void function2(){
+const int var1 = 3,var2 = 4;
+printf("fun2:");
+printf(var1);
+printf(var2);
+}
+
+int function1(int a,int b){
+const int var1 = 1,var2 = 2;
+printf("fun1:");
+printf(var1);
+printf(var2);
+
+function2();
+return (a+b);
+}
+
+int get1(int a,int b){
+return (a+b);
+}
+
+void main(){
+a[0]=0;
+a[1]=1;
+a[2]=2;
+a[3]=3;
+printf("get1:",get1(a[2],a[3]));
+printf("func:" ,function1(a[2],a[3]));
+}
+
+
+
+
+

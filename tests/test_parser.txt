@@ -1,0 +1,188 @@
+常量和变量声明
+void main()
+{
+const int zero=0;
+const int M1=1,M2=2;
+const char cc0='_';
+const char cc1='a',cc2='b',cc3='c';
+int v0;
+int v1,v2,A1[12],v3;
+char c0;
+char c1,c2,c3,A2[26],A3[3],c4;
+}
+
+函数定义
+void fn()
+{
+}
+int fn2()
+{
+return (0);
+}
+void main()
+{
+}
+
+因子+赋值语句+有返回值函数调用语句
+int a,b,A[10];
+int fn()
+{
+return (97);
+)
+void main()
+{
+b=97;
+a=b;
+A[2]=97;
+a=A[2];
+a='a';
+a=fn();
+a=(97);
+}
+
+项
+void main()
+{
+int a,b,t;
+t=a;
+t=a*b;
+t=a/b;
+t=a*b/10;
+t=3*b*b/60/12;
+}
+
+表达式
+void main()
+{
+int a,b,e;
+e=a;
+e=+a;
+e=-a;
+e=a+b;
+e=a-b;
+e=a+b-10;
+e=a-10+b+10;
+}
+
+返回语句
+int fn()
+{
+return(100);
+}
+void main()
+{
+return;
+}
+
+写语句
+const char b='a';
+char a;
+char fn(char ch)
+{
+char A[26];
+printf(ch);
+printf(A[0]);
+}
+void main()
+{
+
+printf("visual studio ",2015);
+printf("hello world");
+printf(23333);
+
+printf('a');
+printf(a);
+printf(b);
+}
+
+读语句
+void main()
+{
+int a,c,b;
+scanf(a);
+scanf(a,b,c);
+}
+
+无返回值函数调用
+void fn()
+{}
+void main()
+{
+fn();
+}
+
+参数表（观察符号表的内容）
+void fn()
+{}
+void fn1(int a)
+{}
+void fn2(int a,int b,char ch,int c)
+{}
+
+值参数表
+void fn1()
+{}
+void fn2(int a)
+{}
+void fn3(int a,int b,char ch)
+{}
+void main()
+{
+int a,b,c;
+char ch;
+fn1();
+fn2(a);
+fn2(ch);
+fn3(a,b,c);
+fn3(a,b,ch);
+}
+
+条件语句
+void main()
+{
+if(0)
+	printf("fail");
+printf("success");
+if(1)
+	printf("success");
+else
+	printf("fail");
+}
+
+条件
+void main()
+{
+const int a=0,b=1;
+if(a)
+	printf("fail");
+if(b)
+	printf("success");
+if(a==0)
+	printf("success");
+if(a!=b)
+	printf("success");
+if(a<b)
+	printf("success");
+if(a<=b)
+	printf("success");
+if(b>a)
+	printf("success");
+if(b>=a)
+	printf("success");
+}
+
+循环语句
+void main()
+{
+int i,sum;
+i=1;
+sum=0;
+while(i<=100)
+{
+sum=sum+i;
+i=i+1;
+}
+sum=0;
+for(i=1;i<=100;i=i+1)
+	sum=sum+i;
+}

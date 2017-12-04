@@ -1,0 +1,8 @@
+int a,b;
+void main()
+{
+	a=2;
+	b=3;
+	printf(a);
+	printf(b);
+}

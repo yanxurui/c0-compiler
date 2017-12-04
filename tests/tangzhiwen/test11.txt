@@ -1,0 +1,8 @@
+void main()
+{
+	int a[10],b;
+	b=a[11];
+	a[10]=9;
+	b=a[12]+3;
+	return;
+}

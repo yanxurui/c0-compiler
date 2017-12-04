@@ -1,0 +1,182 @@
+void 1()
+{
+}
+fn2()
+{
+}
+int fn3()
+{
+const int const_value1=0
+const int const=1;
+cosnt int const_value2;
+const int const_value3='a';
+cosnt const_value4=3;
+}
+int fn4()
+{
+const int const1=+0;
+}
+int fn5()
+{
+int 1a
+int b;
+int c,
+int d[];
+int e[12;
+}
+int 6()
+{
+}
+int fn7)
+{
+}
+int fn8(
+{
+}
+int fn9()
+}
+int fn10()
+{
+
+void fn11)
+{
+}
+void fn12(
+{
+}
+void fn13()
+}
+void fn14()
+{
+
+void fn15(a)
+{
+}
+void fn16(int a)
+{
+}
+
+void fn17()
+{
+a=1;
+b=1
+}
+
+void fn18()
+{
+if1<2)
+printf("yes");
+if(1<2
+printf("yes");
+}
+
+void fn19()
+{
+int i;
+while 1)
+printf("");
+while(1
+printf("");
+for i=0;i<10;i=i+1)
+printf(i);
+for(i=0 i<10;i=i+i)
+{
+printf(i);
+}
+for(i=0;i<10 i=i+1)
+printf(i);
+for(i=0;i<10;++i)
+printf(i);
+for(i=0;i<10;i=-i)
+printf(i);
+for(i=0;i<10;i=i*2)
+printf(i);
+for(i=0;i<10;i=i+i)
+printf(i);
+for(i=0;i<10;i=i+1
+printf(i);
+}
+
+int fn20()
+{
+}
+void fn21(int a,int b)
+{
+}
+void fn22()
+{
+const int a=0;
+const int b=1;
+fn20);
+fn20(;
+fn20);
+fn20(;
+fn20(a);
+fn21(a);
+fn21(a,b;
+fn21(a b);
+fn21();
+}
+
+void fn23()
+{
+int b[10];
+1=2;
+a=2;
+a=2;
+b[0]=0;
+b[1=1;
+b[2]1;
+a+1;
+}
+
+void fn24()
+{
+const int const1=1;
+int a;
+scanfa);
+scanf(1);
+scanf(const1);
+scanf(b);
+scanf(a;
+}
+
+void fn25()
+{
+const int const1=1;
+printf const1);
+printf(const1;
+}
+
+int fn26()
+{
+return (0;
+}
+
+int fn27()
+{
+int a,b[10];
+a=b0]+1;
+a=b[0+1;
+printf(fn25);
+printf(a+c);
+printf(a-(b[0]-c);
+printf(01);
+}
+
+void main)
+{
+}
+void main(
+{
+}
+void main()
+}
+void main()
+{
+int a;
+a=1;
+int b;
+}
+void main()
+{

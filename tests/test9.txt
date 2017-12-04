@@ -1,0 +1,8 @@
+void main()
+{
+	int a, b;
+	a = 0; b = 1;
+	printf(a);
+	printf(b);
+	printf(1 + (2 + (3 + (4 + (5 + (6 + (7)))))));
+}

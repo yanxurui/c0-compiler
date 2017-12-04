@@ -1,0 +1,13 @@
+void main()
+{
+	int a, b, c;
+	char c1, c2, c3;
+	int d, e, f, g;
+	a = 1; b = 2; c = 3;
+	c1 = 52; c2 = 53; c3 = 54;
+	d = 7; e = 8; f = 19; g = 10;
+	f = 9;
+	printf(a); printf(b); printf(c);
+	printf(c1); printf(c2); printf(c3);
+	printf(d); printf(e); printf(f); printf(g);
+}

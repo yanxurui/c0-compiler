@@ -1,0 +1,13 @@
+void main()
+{
+	int a,b,c,d;
+	a=1;b=2;
+	c=a+b;
+	d=a+b;
+	c=c+d;
+	printf(a);
+	printf("\n",b);
+	printf("\n",c);
+	printf("\n",d);
+	return;
+}

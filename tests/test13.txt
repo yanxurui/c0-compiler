@@ -1,0 +1,16 @@
+int m, n, o, p;
+void fn()
+{
+	int a, b, c, d, e;
+	e = 0; m = 1; n = 2; o = 3; p = 4;
+	printf(1 + (2 + (3 + (4 + (5 + (6 + (7 + (8 + (9 + (10))))))))));
+	printf(e);
+}
+void main()
+{
+	fn();
+	printf(m);
+	printf(n);
+	printf(o);
+	printf(p);
+}

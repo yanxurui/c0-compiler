@@ -1,0 +1,19 @@
+int fn1(int a)
+{
+	printf("I am fn1\n");
+	return (a + 1);
+}
+int fn2(int a)
+{
+	int b;
+	b = fn1(a);
+	printf("I am fn2\n");
+	return (b + 1);
+}
+void main()
+{
+	int b;
+	b = fn2(0);
+	if (b == 2)
+		printf("success\n");
+}

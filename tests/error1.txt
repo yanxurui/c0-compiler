@@ -1,0 +1,13 @@
+void main()
+{
+const int const1=01;
+const char const2=''';
+const char const3='(';
+const char const4='0;
+printf("");
+printf("hello);
+if(1!2)
+printf("right");
+¡£
+printf("end");
+}

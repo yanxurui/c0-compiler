@@ -1,0 +1,49 @@
+void test_if(int a,int b)
+{
+	if(a>b)
+		printf(a);
+	else
+	{
+		if(b>0)
+			printf(b);
+		else
+			printf(0);
+	}
+	
+}
+void test_while(int a)
+{
+	while(a<10)
+	{
+		a=a+1;
+		printf(a);
+		printf(" ");
+	}
+}
+void test_switch(int a)
+{
+	switch(a)
+	{
+		case 0:
+		printf("zero\n");
+		case 1:
+		printf("greater than zero\n");
+		case -1:
+		printf("less than zero\n");
+	}
+	return;
+}
+void main()
+{
+	int a,b;
+	char a;
+	a=1;
+	b=2;
+	test_while(a);
+	test_if(a,b);
+	b=-1;
+	test_switch(a);
+	test_switch(b);
+	test_switch(0);
+	return;
+}

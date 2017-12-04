@@ -1,0 +1,27 @@
+void main()
+{
+	int i,n,sum,sum2,temp;
+	
+	printf("Please enter the total count:");
+	scanf(n);
+	
+	sum=0;
+	sum2=0;
+	for ( i=0; i<n; i=i+1)
+	{
+		scanf(temp);
+		sum=sum+temp;
+		sum2=sum2+temp*temp;
+	}
+	
+	printf("Sum=");
+	printf(sum);
+	
+	printf("Avg=");
+	printf(sum/n);
+	
+	printf("Var=");
+	printf(sum2/n-(sum/n)*(sum/n));
+	
+	return;
+}

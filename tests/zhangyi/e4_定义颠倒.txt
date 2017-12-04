@@ -1,0 +1,60 @@
+const int const1 = 1,const2 = -100;
+const int const3 = 123;
+int var1, var2;
+const char const4 = '+';
+
+
+int var3;
+int var4;
+
+int max(int var1, int var2, int var3){
+    int del1;
+    if (var1>=var2)
+    {    if(var1>=var3)
+  	  del1=var1;
+	else del1 = var3;
+    } 
+    else 
+    {   if (var2 >= var3)
+	     del1 = var2;
+       else del1 = var3;
+    }   
+   return (del1);
+}
+
+int add1(int base,int step, int n){
+   while(n>0)
+   {
+     base = base + step;
+     n = n-1;			  
+   }
+   return (base);
+}
+
+int add2(int base,int step,int n){
+   int del1;
+   for(del1 = 0;n>0;n = n-1)
+   {
+    base = step + base;
+   }
+   return (base);
+
+}
+
+void main(){
+    
+    int cast1,cast2,cast3;
+    int cast4,cast5,cast6;
+    int re1,re2;
+    
+    cast4 = 11;
+    cast5 = -3;
+    cast6 = 0;
+    re1 = add1(cast4,cast5,cast6);
+    re2 = add2(cast4,cast5,cast6);
+    printf("the result: ");
+    printf(re1);
+    printf(re2);
+    printf(var3);
+    printf(var4);
+}

@@ -1,0 +1,266 @@
+输出语句
+void main()
+{
+int a;
+char c;
+a=97;
+c='a';
+printf("a=");
+printf(a);
+printf("\nc=",c);
+}
+
+全局变量的定义、加载与保存；输出语句
+int M,N;
+char C;
+void fn()
+{
+N=99;
+printf(M);
+printf(C);
+M=100;
+C='a';
+}
+void main()
+{
+M=-100;
+C='z';
+fn();
+printf(M);
+printf(C);
+printf("success");
+}
+
+多个临时变量
+void main()
+{
+int a,b;
+a=0;b=1;
+printf(a);
+printf(b);
+printf(1+(2+(3+(4+(5+(6+(7)))))));
+}
+
+参数传递，超过4个参数的传递，压入栈
+void fn(int i)
+{
+printf(i);
+}
+void fn2(int a,int b,int c)
+{
+printf(a+b+c);
+}
+int fn3(int a,int b,int c,int d,int e,int f)
+{
+printf(a);
+printf(b);
+printf(c);
+printf(d);
+printf(e);
+printf(f);
+}
+void main()
+{
+fn3(1,2,3,4,5,6);
+}
+
+多余的局部变量保存在栈上
+void main()
+{
+int a,b,c;
+char c1,c2,c3;
+int d,e,f,g;
+a=1;b=2;c=3;
+c1=52;c2=53;c3=54;
+d=7;e=8;f=19;g=10;
+f=9;
+printf(a);printf(b);printf(c);
+printf(c1);printf(c2);printf(c3);
+printf(d);printf(e);printf(f);printf(g);
+}
+
+函数调用与返回
+int fn1(int a)
+{
+printf("I am fn1\n");
+return (a+1);
+}
+int fn2(int a)
+{
+int b;
+b=fn1(a);
+printf("I am fn2\n");
+return (b+1);
+}
+void main()
+{
+int b;
+b=fn2(0);
+if(b==2)
+printf("success\n");
+}
+
+条件语句
+void main()
+{
+int a;
+a=0;
+if(1==1)
+a=a+1;
+if(1==2)
+a=a-1;
+
+if(1==1)
+a=a+1;
+else a=a-1;
+if(1!=1)
+a=a-1;
+else a=a+1;
+
+if(a==3)
+printf("success");
+else
+printf("fail");
+}
+
+循环语句
+void main()
+{
+int i,sum;
+i=0;
+sum=0;
+while(i<=100)
+{
+sum=sum+i;
+i=i+1;
+}
+printf(sum);
+}
+
+void main()
+{
+int i,sum;
+sum=0;
+for(i=0;i<=100;i=i+1)
+sum=sum+i;
+printf(sum);
+}
+
+不等式
+void main()
+{
+int a;
+a=0;
+
+if(1==2)
+a=a+1;
+if(1!=1)
+a=a+1;
+if(1<1)
+a=a+1;
+if(1<=0)
+a=a+1;
+if(1>1)
+a=a+1;
+if(1>=2)
+a=a+1;
+
+if(a==0)
+printf("success");
+}
+
+输入语句
+void main()
+{
+int i1,i2,i3;
+char c1,c2;
+scanf(i1,c1,i2,c2,i3);
+printf("\n",i1);
+printf(c1);
+printf(i2);
+printf(c2);
+printf(i3);
+}
+
+//临时寄存器的溢出
+int m,n,o,p;
+void fn()
+{
+int a,b,c,d,e;
+e=0;m=1;n=2;o=3;p=4;
+printf(1+(2+(3+(4+(5+(6+(7+(8+(9+(10))))))))));
+printf(e);
+}
+void main()
+{
+fn();
+printf(m);
+printf(n);
+printf(o);
+printf(p);
+}
+
+调用函数前保存所有临时寄存器
+int M;
+int fn()
+{
+return (8);
+}
+void main()
+{
+int a,b,c,d,n;
+n=7;
+M=5;
+printf(1+(2+(3+(4+(M+(6+(n+(fn()))))))));
+}
+
+数组
+int G_A[7];
+char G_C[30];
+void main()
+{
+int A[10];
+char C[26];
+G_A[6]=7;
+g_c[2]=50;
+A[1]=1;
+A[9]=9;
+C[0]='a';
+C[1]=98;
+printf(g_A[6]);
+printf(g_c[2]);
+printf(A[1]);
+printf(A[9]);
+printf(C[0]);
+printf(C[1]);
+}
+
+数组越界
+void main()
+{
+char A[10];
+int b;
+A[10]=97;
+b=A[10];
+printf(b);
+}
+
+字符的截断
+char fn(int a,char b,char c)
+{
+printf(a);
+printf(b);
+printf(c);
+return (a*b*c);
+}
+void main()
+{
+char c;
+char A[5];
+c=1684234849;
+A[1]=1684234849;
+printf(c);
+printf(A[1]);
+printf(fn(10000,1684234849,1701077858));
+}
+
